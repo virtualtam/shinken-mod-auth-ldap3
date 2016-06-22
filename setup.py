@@ -1,15 +1,12 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 """
 Setuptools configuration for mod-auth-ldap3
 """
 from __future__ import unicode_literals
 
 import codecs
-import os
-import re
-import sys
 
-from setuptools import find_packages, setup
+from setuptools import setup
 
 
 def get_long_description():
@@ -36,12 +33,14 @@ setup(
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Plugins',
-        'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
+        'License :: OSI Approved'
+        ' :: GNU Affero General Public License v3 or later (AGPLv3+)',
         'Operating System :: POSIX :: Linux',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Topic :: System :: Monitoring',
         'Topic :: System :: Systems Administration',
         'Topic :: System :: Systems Administration :: Authentication/Directory',
-        'Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP',
+        'Topic :: System :: Systems Administration'
+        ' :: Authentication/Directory :: LDAP',
     ])
