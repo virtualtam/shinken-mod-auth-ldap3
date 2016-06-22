@@ -1,0 +1,28 @@
+{
+  "name": "auth-ldap3",
+  "types": ["module"],
+  "version": "0.1",
+  "homepage": "http://github.com/virtualtam/shinken-mod-auth-ldap3",
+  "author": "VirtualTam",
+  "description": "LDAPv3 (OpenLDAP, ActiveDIrectory) auth for WebUI",
+  "contributors": [
+    {
+      "name": "VirtualTam",
+      "email": "virtualtam@flibidi.net"
+    }
+  ],
+  "repository": "https://github.com/virtualtam/shinken-mod-auth-ldap3",
+  "keywords": [
+    "module",
+    "broker",
+    "WebUI",
+    "auth",
+    "authentication",
+    "ldap"
+  ],
+  "dependencies": {
+    "shinken": ">=2.4",
+    "ldap": ">=2.0"
+  },
+  "license": "AGPL"
+}

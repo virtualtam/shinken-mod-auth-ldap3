@@ -21,10 +21,11 @@ setup(
     author="VirtualTam",
     author_email='virtualtam@flibidi.net',
     license=' AGPL-3.0',
-    url='https://github.com/virtualtam/mod-auth-ldap3',
+    url='https://github.com/virtualtam/shinken-mod-auth-ldap3',
     keywords="active directory authentication ldap shinken",
     install_requires=[
-        'ldap3'
+        'ldap3>=2.0',
+        'shinken>=2.4'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
