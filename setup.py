@@ -1,7 +1,5 @@
 #!/usr/bin/env python2
-"""
-Setuptools configuration for mod-auth-ldap3
-"""
+"""Setuptools configuration for mod-auth-ldap3"""
 from __future__ import unicode_literals
 
 import codecs
@@ -10,9 +8,7 @@ from setuptools import setup
 
 
 def get_long_description():
-    """
-    Reads the main README.rst to get the program's long description
-    """
+    """Reads the main README.rst to get the program's long description"""
     with codecs.open('README.rst', 'r', 'utf-8') as f_readme:
         return f_readme.read()
 
@@ -43,4 +39,5 @@ setup(
         'Topic :: System :: Systems Administration :: Authentication/Directory',
         'Topic :: System :: Systems Administration'
         ' :: Authentication/Directory :: LDAP',
-    ])
+    ]
+)
