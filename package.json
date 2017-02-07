@@ -4,7 +4,7 @@
   "version": "0.1",
   "homepage": "http://github.com/virtualtam/shinken-mod-auth-ldap3",
   "author": "VirtualTam",
-  "description": "LDAPv3 (OpenLDAP, ActiveDIrectory) auth for WebUI",
+  "description": "LDAPv3 (OpenLDAP, ActiveDirectory) auth for WebUI",
   "contributors": [
     {
       "name": "VirtualTam",
